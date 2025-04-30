@@ -52,7 +52,7 @@ int main()
             if(menor_caso == 0) ans = R[maior_caso] - R[0] + delta_menor;
             else if(menor_caso == 1)
             {
-                int reta = R[maior_caso] - R[1];
+                int reta = R[2] - R[1];
                 double aux = min(delta_meio, delta_menor + 2 * (R[1] - R[0]));
                 ans = reta + aux;
             }
