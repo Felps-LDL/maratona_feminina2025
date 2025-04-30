@@ -25,9 +25,9 @@ int main()
     {
         cin >> A >> B >> C;
 
-        if(A != B && B == C) cout << A << endl;
-        else if(A == B && B != C) cout << C << endl;
-        else cout << B << endl;
+        if(A == B) cout << C << endl;
+        else if(A == C) cout << B << endl;
+        else cout << A << endl;
     }
     
     return 0;
